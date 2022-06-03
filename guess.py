@@ -12,9 +12,7 @@ while True:
 	if r == num:
 		print('你猜中了!')
 		break
-	else:
-		print('你猜錯了')
-		if r > num:
-			print('比答案小')
-		else:
-			print('比答案大')
+	elif r > num:
+		print('比答案小')
+	elif r < num:
+		print('比答案大')
